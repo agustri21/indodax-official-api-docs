@@ -176,18 +176,18 @@ Response Triggered Order:
         {
           "eventType": "order_update",
           "order": {
-            "orderId": "aaveidr-limit-3397",
-            "symbol": "aaveidr",
+            "orderId": "usdtidr-stoplimit-427",
+            "symbol": "usdtidr",
             "side": "BUY",
-            "origQty": "0.00996909",
-            "unfilledQty": "0.00996909",
+            "origQty": "1",
+            "unfilledQty": "1",
             "executedQty": "0",
-            "price": "2000000",
-            "stopPrice": "1990000",
-            "description": "AAVE/IDR",
+            "price": "16543",
+            "stopPrice": "15655",
+            "description": "USDT/IDR",
             "status": "TRIGGERED",
-            "transactionTime": 1705635775203,
-            "clientOrderId": "lendidr-limit-3397"
+            "transactionTime": 1711528563465,
+            "clientOrderId": "usdtidr-stoplimit-427"
           }
         }
       ]

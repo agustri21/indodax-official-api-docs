@@ -166,6 +166,36 @@ Response New Order:
 }
 ```
 
+Response Triggered Order:
+```json
+{
+  "push": {
+    "channel": "pws:#30bae5254dba62966e16667029c20cfb41f508af",
+    "pub": {
+      "data": [
+        {
+          "eventType": "order_update",
+          "order": {
+            "orderId": "aaveidr-limit-3397",
+            "symbol": "aaveidr",
+            "side": "BUY",
+            "origQty": "0.00996909",
+            "unfilledQty": "0.00996909",
+            "executedQty": "0",
+            "price": "2000000",
+            "stopPrice": "1990000",
+            "description": "AAVE/IDR",
+            "status": "TRIGGERED",
+            "transactionTime": 1705635775203,
+            "clientOrderId": "lendidr-limit-3397"
+          }
+        }
+      ]
+    }
+  }
+}
+```
+
 Response Fills Order:
 ```json
 {
